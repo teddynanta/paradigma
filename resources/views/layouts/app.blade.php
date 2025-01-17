@@ -52,7 +52,7 @@
     </style>
 </head>
 
-<body class="bg-gray-100">
+<body class="bg-primary">
     @include('partials.navbar')
     <div>
         @yield('content')
