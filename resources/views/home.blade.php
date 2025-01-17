@@ -6,12 +6,22 @@
 
         <section class="mb-10">
             <div class="grid max-w-screen-xl px-4 py-8 mx-auto lg:gap-8 xl:gap-0 lg:py-16 lg:grid-cols-12">
+                {{-- LEFT SIDE --}}
                 <div class="mr-auto place-self-center lg:col-span-7">
+                    {{-- BIG TEXTS --}}
                     <h1
                         class="max-w-2xl text-white mb-4 text-4xl font-extrabold tracking-tight leading-none md:text-5xl xl:text-6xl dark:text-white">
-                        Hi, I'm Teddy Nanta!</h1>
-                    <p class="max-w-2xl mb-6 font-light text-gray-500 lg:mb-8 md:text-lg lg:text-xl dark:text-gray-400">I'm a
-                        Fullstack Developer that lives in South Sumatera, Indonesia. Let's explore!</p>
+                        Hi, I'm Teddy Nanta!
+                    </h1>
+                    {{-- END BIG TEXTS --}}
+
+                    {{-- SMALL TEXTS --}}
+                    <p class="max-w-2xl mb-6 font-light text-gray-500 lg:mb-8 md:text-lg lg:text-xl dark:text-gray-400">
+                        I'm a Fullstack Developer that lives in South Sumatera, Indonesia. Let's explore!
+                    </p>
+                    {{-- END SMALL TEXTS --}}
+
+                    {{-- CALL TO ACTION  --}}
                     <a href="#"
                         class="inline-flex items-center justify-center px-5 py-3 mr-3 text-base font-medium text-center text-primary rounded-lg bg-secondary hover:bg-seconds focus:ring-4 focus:ring-primary dark:focus:ring-primary-900">
                         Get started
@@ -22,13 +32,11 @@
                                 clip-rule="evenodd"></path>
                         </svg>
                     </a>
-                    <a href="#"
-                        class="inline-flex items-center justify-center px-5 py-3 text-base font-medium text-center text-secondary border border-secondary rounded-lg hover:bg-secondary hover:text-primary focus:ring-4 focus:ring-seconds dark:text-white dark:border-gray-700 dark:hover:bg-gray-700 dark:focus:ring-gray-800">
-                        Read My Blogs
-                    </a>
+                    {{-- END CALL TO ACTION --}}
                 </div>
-                <div class="ml-auto w-80 hidden lg:mt-0 lg:col-span-5 lg:flex">
+                {{-- END LEFT SIDE --}}
 
+                <div class="ml-auto w-80 hidden lg:mt-0 lg:col-span-5 lg:flex">
                     <div
                         class="w-full max-w-sm bg-gray-800 border border-gray-700 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
                         <div class="flex justify-end px-4 pt-4">
