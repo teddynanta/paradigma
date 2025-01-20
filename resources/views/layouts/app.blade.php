@@ -10,6 +10,8 @@
     {{-- <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet"> --}}
     {{-- <script src="//unpkg.com/alpinejs" defer></script> --}}
     <style>
+        @import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
         .swiper-button-prev:after,
         .swiper-rtl .swiper-button-next:after {
             content: '' !important;
@@ -52,7 +54,7 @@
     </style>
 </head>
 
-<body class="bg-primary">
+<body class="bg-whites dark:bg-primaryDark">
     @include('partials.navbar')
     <div>
         @yield('content')

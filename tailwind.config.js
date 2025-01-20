@@ -14,13 +14,17 @@ export default {
     theme: {
         extend: {
             fontFamily: {
-                sans: ['Figtree', ...defaultTheme.fontFamily.sans],
+                sans: ['Roboto', 'sans-serif'],
+                comfortaa: ['Comfortaa', 'sans-serif'],
+                rubik: ['Rubik', ...defaultTheme.fontFamily.sans],
             },
         },
         colors:{
-            primary: '#0f172a',
-            secondary: '#5ADBFF',
-            seconds: '#85E4FF',
+            primaryDark: '#0f172a',
+            secondaryDark: '#5ADBFF',
+            secondsDark: '#85E4FF',
+            primary: '#2157F2',
+            whites:'#F3F4F6',
         },
     },
     plugins: [
